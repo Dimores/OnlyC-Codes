@@ -8,7 +8,7 @@ int *geraVetor(int n){
 	
 	// Preenchendo o vetor
 	for(int i = 0; i < n; i++){
-		cout << "Informe um numero: ";
+		cout << "Informe o valor da posicao " << i + 1 << ": ";
 		cin >> vet[i];
 		cout << endl;
 	}
@@ -28,7 +28,7 @@ void imprimeVetor(int *vet, int n){
 	
 	for(int i = 0; i < n; i++){
 		
-		if(i !=0){
+		if(i != 0){
 			cout << ", " << vet[i];
 		}
 	}
